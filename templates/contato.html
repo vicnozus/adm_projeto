@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('sobre') }}">Sobre</a>
+        <a href="{{ url_for('contato') }}">Contato</a>
+    </nav>
+    <h1>Contato</h1>
+    <form method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required><br>
+        <input type="email" name="email" placeholder="Seu email" required><br>
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

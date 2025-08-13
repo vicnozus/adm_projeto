@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 8px 16px;
+}

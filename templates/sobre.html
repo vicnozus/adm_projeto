@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('sobre') }}">Sobre</a>
+        <a href="{{ url_for('contato') }}">Contato</a>
+    </nav>
+    <h1>Sobre o projeto</h1>
+    <p>Este site é um exemplo de como usar Flask com HTML, CSS e JS.</p>
+</body>
+</html>
